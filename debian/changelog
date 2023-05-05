@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+spdx-licenses (3.8+dfsg-3) unstable; urgency=medium
 
-  * Initial release
+  * friendly takeover;
+    thanks for initiating this, Michael Lustfield
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 07 Apr 2021 09:12:25 +0200
+
+spdx-licenses (3.8+dfsg-2) unstable; urgency=medium
+
+  * debian/copyright:
+    + Update with note about license of license texts.
+    + Append missing file suffix to appropriate files.
+  * Clean up package description.
+
+ -- Michael Lustfield <mtecknology@debian.org>  Tue, 31 Mar 2020 12:52:34 -0500
+
+spdx-licenses (3.8+dfsg-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #955001)
+
+ -- Michael Lustfield <mtecknology@debian.org>  Tue, 31 Mar 2020 09:42:24 +0000
