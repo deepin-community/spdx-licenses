@@ -1,15 +1,21 @@
-Source: template-repository
-Section: unknown
+Source: spdx-licenses
+Section: doc
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Vcs-Browser: https://github.com/Debian/spdx-licenses
+Vcs-Git: https://github.com/Debian/spdx-licenses.git
+Homepage: https://github.com/spdx/license-list-data
+Rules-Requires-Root: no
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: spdx-licenses
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Collection of license data provided by SPDX Workgroup
+ SPDX Licenses provides a collection of license texts which were assembled
+ and provided by SPDX Workgroup, a Linux Foundaition Project. This package
+ makes most of these license texts available to Debian systems.
+ .
+ Note: License texts have NOT been evaluated against DFSG.
